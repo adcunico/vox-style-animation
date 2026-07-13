@@ -1,7 +1,19 @@
-# Frida Kahlo — Painting Identity (VOX-Style Video)
+# Vox Style Animation
 
-A 30-second VOX-style editorial collage video about Frida Kahlo, generated as three
-sequential 10-second Kie.ai scenes (GPT Image 2 first frame + Gemini Omni Video chain).
+A keyframe-driven workflow for producing VOX-style editorial paper-collage explainer
+videos with AI — GPT Image 2 for approved keyframes, Gemini Omni Video to animate
+between them, stitched with ffmpeg. Includes a complete worked example: a 30-second
+Frida Kahlo explainer built as three sequential 10-second scenes.
+
+## Use it as a Claude Code skill
+
+Clone this repo and open it in [Claude Code](https://claude.com/claude-code) — the
+`vox-style-video` skill in `.claude/skills/` teaches Claude the whole pipeline. Then just ask:
+
+> Make a 30-second Vox-style video about [your topic]
+
+Claude will write the script, design the keyframes for your approval, generate the
+scenes, and stitch the master. You bring a [Kie.ai](https://kie.ai) API key and ffmpeg.
 
 ## Quick Start
 
