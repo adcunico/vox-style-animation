@@ -1,124 +1,70 @@
-# VOX Style - Locked Visual System for Kie.ai
+# Visual System — Frida Kahlo: Painting Identity
 
-This document defines the visual rules for the **Frida Kahlo — Painting Identity** video. The output should feel like one continuous editorial paper-collage world, even though scenes are generated sequentially. The visual reference board is `assets/moodboard.png`.
+The locked look for this film. Every frame of every scene must read as one
+continuous editorial paper-collage wall, photographed calmly. The reference board
+is `assets/moodboard.png` (kept out of git; regenerate or supply your own).
 
-## Core Principles
+## The world in one sentence
 
-- One continuous visual universe.
-- Warm off-white paper background.
-- Grayscale magazine cutout subjects.
-- Halftone dots, paper texture, grain, and printed edges.
-- Short, punchy on-screen labels.
-- Layered depth with foreground and background paper pieces.
-- Focus shifts through blur, opacity, scale, and contrast.
-- Calm, information-forward editorial motion.
+Warm crumpled paper, grayscale halftone cutouts, hand-painted folk-art portraits,
+torn edges, hand-inked annotations, and a few loud Mexican folk-art accents used
+sparingly — never glossy, never 3D, never AI-slick.
 
-## 1. Shared Visual World
+## Palette
 
-Every scene must preserve the same background color, paper texture, palette, lighting, and collage logic. The model may drift or push the camera gently, but it should not introduce a new location, new camera angle, glossy 3D world, neon palette, dramatic lighting, or hard scene reset.
+| Role | Color | Hex |
+|------|-------|-----|
+| Background paper | warm paper | #F6F0E6 |
+| Ink and cutouts | deep charcoal / grayscale halftone | #111111 |
+| Accent 1 | marigold | #F4A300 |
+| Accent 2 | cobalt | #1557A5 |
+| Accent 3 | magenta | #D12C6A |
+| Accent 4 | jungle green | #2D7A50 |
+| Accent 5 | terracotta | #C65A32 |
+| Accent 6 | turquoise | #2DB7A3 |
 
-When continuing from a previous frame, prompts should explicitly preserve visible background, cutouts, labels, paper grain, halftone texture, arrows, circles, and any important context from the prior scene.
+Never more than three accents dominant in a single frame. Grayscale subjects are
+what make the accents land.
 
-## 2. Cutout Format
+## How things look
 
-People, buildings, objects, props, documents, vehicles, diagrams, and icons should look like paper cutouts layered on a printed editorial page.
+- **People**: hand-painted folk-art portraits with visible brushwork (never
+  photographic — see the safety playbook in `CLAUDE.md`), cut out with torn paper
+  edges. Objects and places can be grayscale halftone "newsprint" cutouts.
+- **Text**: torn paper blocks and cream tags. Big, few words, screen-printed
+  texture. All text is baked into keyframe images, never generated mid-video.
+- **Annotations**: rough marigold ovals, pencil underlines, black ink strike-throughs,
+  hand-drawn arrows — always imperfect, like a busy editor's markup.
+- **Depth**: three layers — paper ground, cutout subjects, foreground labels.
+  Emphasis moves by rack focus (blur + contrast), not by things growing or glowing.
 
-Midground subjects:
+## How things move
 
-- Black and white or grayscale.
-- Halftone dot pattern.
-- Subtle paper or newsprint texture.
-- High contrast, clean silhouette.
-- Slightly distressed printed edges are okay.
+Everything is stop-motion paper puppetry:
 
-Prompt seed:
+- Elements STAMP down with a slight overshoot, SLIDE in as rigid pieces, TEAR,
+  UNFURL, or BLOOM like folded paper popping open.
+- People are static artwork. Faces never blink, breathe, or turn. A portrait moves
+  only as a complete rigid piece.
+- The camera makes one deliberate move per scene: a slow push (dread), a pull-back
+  (relief), or a lateral pan (a new chapter). Never more than one.
+- Scenes begin with a 0.5s still hold and end settled and still.
 
-```text
-black and white halftone print on textured paper, magazine cutout style, high contrast dots, clean silhouette, editorial collage, analog paper texture
-```
+## Density budget (the most-broken rule — enforce it)
 
-Foreground elements:
+- Maximum three major elements at full contrast at any moment.
+- At least one third of the frame stays empty warm paper.
+- When something new enters, something old softens, drifts back, or exits.
+- A beat that removes elements is worth as much as a beat that adds them.
 
-- May use muted color or a restrained accent.
-- Should still feel like printed paper, acetate, pencil marks, labels, or pasted documents.
-- Can partially cover midground subjects to create depth.
+## Project motifs
 
-## 3. Typography and Text
-
-- Keep readable text short: usually 1-8 words.
-- Use large labels, stamps, price tags, simple callouts, and short headlines.
-- Important text must be listed exactly in the Kie prompt.
-- Do not ask the model to generate paragraphs, tiny labels, receipts full of readable text, dense documents, or any text that must be factually perfect.
-- For exact factual labels, generate blank paper cards or label areas and add exact text locally afterward.
-
-Recommended text-control language:
-
-```text
-Only render the following readable text exactly: "775 ROOMS" and "THE PALACE MACHINE".
-Do not invent any other readable words, numbers, signs, labels, captions, or document text.
-All other paper cards should be blank or contain unreadable abstract marks.
-```
-
-## 4. Layering and Focus
-
-Use a three-layer mental model in prompts:
-
-1. Background paper world: warm off-white paper, grain, faint halftone, soft vignette.
-2. Midground subjects: grayscale cutouts, people, buildings, objects, main actors.
-3. Foreground graphics: labels, arrows, circles, cards, documents, maps, UI-like editorial overlays.
-
-Focus shifts should be described as rack focus through blur and opacity:
-
-- A new paper element slides in soft, then sharpens.
-- Prior elements remain visible but soften, blur, drift, or lower contrast.
-- Foreground labels can stamp down or settle with a slight overshoot.
-- Older context should recede, not disappear abruptly.
-
-## 5. Motion Language
-
-- Begin each generated scene with a brief still hold on the provided starting frame.
-- Entrances: paper slides, stamped labels, drawn circles, expanding radar rings, pasted documents, arrows being sketched.
-- Holds: subtle paper parallax, gentle camera drift, tiny settling motion.
-- Exits: soft blur, lowered contrast, drift into background context.
-- Avoid hard cuts, fast zooms, glossy transitions, explosions, lens flares, dramatic cinematic effects, or photorealistic 3D.
-
-## 6. Palette
-
-Project palette (from the Frida Kahlo moodboard):
-
-- Background: warm paper #F6F0E6, off-white #FBF8F1.
-- Cutouts: grayscale halftone and black ink (deep charcoal #111111).
-- Accents (Mexican folk-art, used restrained — never more than three dominant at once):
-  - Marigold #F4A300 (rough circles, underlines, the sun-circle motif)
-  - Cobalt #1557A5 (papel picado, Casa Azul)
-  - Magenta #D12C6A (title blocks, flower crown, sacred heart)
-  - Jungle green #2D7A50 (Mexico map, botanical elements)
-  - Terracotta #C65A32 (PAIN label, earthy scraps)
-  - Turquoise #2DB7A3 (sparingly)
-- Text: black on cream cards, or off-white on accent-color torn blocks.
-
-Avoid neon gradients, shiny tech UI, over-saturated palettes, and generic AI fantasy textures.
-
-## 6b. Project Motifs
-
-Recurring elements that tie the three scenes together:
-
-- **Gold crack line** ("kintsugi"): drawn in scene 01 when the bus crash shatters the page; returns in scene 03 blooming with marigolds — the wounds-become-voice through-line.
-- **Papel picado banners** in cobalt and magenta (scene 03 only).
-- **Botanical library**: paper-cut marigolds, hibiscus, monstera leaves.
-- **Animal library**: grayscale monkey, parrot, hummingbird cutouts (scene 03).
-- **Sacred heart / milagro** cutout in magenta and marigold (scene 02).
-- **Self-portrait grid** with a single sharp, flower-crowned central portrait (scenes 02-03).
-- Hand-drawn annotations: rough ink arrows, pencil circles, strike-through strokes.
-
-## 7. Pacing and Density
-
-- Narration drives the visuals.
-- Each major phrase should trigger one clear visual action.
-- Sections should usually run 5-10 seconds.
-- Do not overcrowd the frame. Leave negative space so the editorial collage feels designed.
-- End every scene on a stable frame that can serve as the next scene's starting frame.
-
-## Enforcement
-
-Any deviation from these rules should be explicit and intentional. The goal is instantly recognizable VOX-style continuity and craft across a Kie-generated sequential scene chain.
+- **The gold crack**: one thin kintsugi line drawn across the paper when the bus
+  tears in scene 1; it persists through every scene and blooms with paper flowers
+  in the finale. Wounds becoming voice — the film's whole argument in one graphic.
+- **The marigold**: a single paper-cut bloom anchoring the lower right of every scene.
+- **Papel picado** banners in cobalt and magenta — finale only.
+- **The sacred-heart milagro** — scene 2's single symbol for surgery, miscarriage,
+  and heartbreak (one symbol reads; three would be decoration).
+- **The crowned self-portrait** — established in scene 2's grid, becomes the hero
+  of the finale on a marigold paper sun.

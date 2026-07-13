@@ -57,3 +57,9 @@ Use `--dry-run` to write task payloads without calling Kie.
 - `assets/audio/` - optional local narration audio, ignored by git.
 
 Use `.env.example` as the local environment template. Never commit real API keys or generated media.
+
+## Acknowledgment
+
+The Kie.ai API plumbing in `scripts/` started from a community vox-style-video starter
+project and was substantially extended here (keyframe-pair generation, mid-frame pans,
+clip splitting, the safety-filter playbook, and all creative content).

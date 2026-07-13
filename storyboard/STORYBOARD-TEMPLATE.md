@@ -1,37 +1,36 @@
-# STORYBOARD - [VIDEO TITLE]
+# STORYBOARD — [TITLE]
 
-**Target length**: XX seconds
-**Voice**: [Kie audio ID or narration voice description]
-**Visual world**: [background, paper texture, recurring cutouts, palette]
+**Length**: 30 seconds (3 × 10s scenes)
+**Narration**: recorded in post (three chunks map 1:1 onto the three scenes)
+**Through-line**: [the one visual motif planted in scene 1 that pays off in scene 3]
 
-## Master Script
+## Script
 
-Full narration text here.
+> Scene 1 (hook, ≤35 words): ...
+>
+> Scene 2 (twist, ≤35 words): ...
+>
+> Scene 3 (payoff, ≤35 words): ...
 
-## Section Plan
+## Keyframe plan
 
-Sections should be longer than 5 seconds, no longer than 10 seconds, and sentence-safe.
+| Scene | Start frame | End frame (approve as image first!) | Baked-in text | The four beats |
+|-------|-------------|--------------------------------------|---------------|----------------|
+| 01 | generated from scratch, underbuilt | ... | ... | 1) ... 2) ... 3) (removal beat) ... 4) ... |
+| 02 | scene 01's extracted last frame | i2i from scene-01-end | ... | ... |
+| 03 | scene 02's extracted last frame | i2i from scene-02-last | ... | ... |
 
-| Section | Start (s) | End (s) | Duration | Narration | Allowed Readable Text | Visual Action | Final Frame |
-|---------|-----------|---------|----------|-----------|-----------------------|---------------|-------------|
-| 01 | 0.00 | 7.50 | 7.50 | "Opening narration..." | "BIG IDEA" | Paper headline stamps in, main cutout sharpens | Stable collage with headline and main subject |
-| 02 | ... | ... | ... | ... | ... | ... | ... |
+## Camera per scene
 
-## Prompt Notes
+- 01: [one move — push / pull / pan]
+- 02: [one move]
+- 03: [one move; if a pan needs a mid keyframe, split into two clips]
 
-- First image prompt:
-- Scene continuity notes:
-- Text that must be added locally instead of generated:
-- Motifs to preserve across all scenes:
+## Checklist
 
-## Kie Checklist
-
-- [ ] Script finalized.
-- [ ] Audio generated or selected.
-- [ ] Word-level transcript available if timing needs refinement.
-- [ ] Sections are 5-10 seconds and do not split sentences.
-- [ ] First image prompt written.
-- [ ] Scene prompts written.
-- [ ] Important readable text is explicitly allowed or reserved for local overlay.
-- [ ] Handoff frames extracted from stable near-final moments.
-- [ ] Joins reviewed and crossfaded if needed.
+- [ ] No sentence split across scenes; each chunk ≤10s spoken.
+- [ ] Every end frame approved as an image before its video render.
+- [ ] No famous names in video prompts; all text baked into keyframes.
+- [ ] People painted, static, moved only as rigid paper pieces.
+- [ ] Density budget respected in every keyframe.
+- [ ] Stitched with 0.35s crossfades; narration and overlays added in post.
