@@ -1,0 +1,33 @@
+Create a 6.00 second seamless VOX-style editorial collage video: the celebratory closing shot of a film, assembling on a paper-collage wall.
+
+You are given two images. The FIRST image is the exact opening frame of the video. The SECOND image is the exact final frame of the video. Same continuous warm-paper world. Your job is to animate the transformation from the first image to the second image as one continuous, calm scene, with no cuts.
+
+Opening frame (first image): a quiet, almost empty stretch of paper-collage wall: open warm paper, a thin gold crack line running across, a sliver of small portrait frames at the far left edge, faint blank scraps near the right edge.
+
+Final frame (second image): the finished finale page: a large hand-painted crowned self-portrait of a young woman centered on a big round marigold-yellow paper sun circle; a row of papel picado banners in cobalt and magenta along the top edge; a cream quote card lower-center-left with a struck-through gray label above it; small paper flowers blooming along the gold crack line on the right; an orange paper-cut marigold lower-right.
+
+CRITICAL RULE - the woman is always static artwork: her painted face and body NEVER move, blink, breathe, or change. Her portrait may only paste down, scale, or settle as one complete rigid paper piece. Never redraw, restyle, or morph her face - it must be pixel-faithful to the second image.
+
+CRITICAL TEXT RULE: the text on the quote card and labels must appear EXACTLY as rendered in the second image, letter for letter. Do not generate, invent, retype, or alter any text. Treat the quote card as a pre-printed paper piece that slides in already finished. If any text is shown mid-animation, it must already be identical to the final frame. No other words, numbers, or captions anywhere.
+
+This scene is silent - generate no speech, no voiceover, no music, and no sound effects.
+
+Animate in four beats across the 6 seconds:
+
+Beat 1 (0.0-1.0s): hold the opening frame still for 0.5 seconds. Then the large marigold sun circle with the crowned portrait pastes down at center as ONE rigid finished piece, with a soft paper-settle and slight overshoot.
+
+Beat 2 (1.0-2.5s): the papel picado banner row unfurls along the top edge, flag by flag, gentle and rhythmic.
+
+Beat 3 (2.5-4.0s): the cream quote card slides up from the bottom edge into place as one finished pre-printed piece; the small gray label stamps above it and one rough black ink stroke draws through it, crossing it out; the marigold underline draws itself beneath the middle words.
+
+Beat 4 (4.0-6.0s): small paper flowers bloom one by one along the gold crack line, each popping open like folded paper with a slight overshoot. Everything settles into the exact second-image composition and holds completely still for the final full second - the closing shot of the film.
+
+Composition discipline: calm, celebratory, editorial. The crowned portrait on the sun circle is the single focal point; the quote card is the second read. Generous empty warm paper remains on the left. Do not add any element that is not visible in the second image.
+
+Camera: locked, or at most a barely perceptible slow drift back. No pan, no zoom, no rotation.
+
+Preservation: same warm paper background (#F6F0E6), crumpled texture, halftone dots, film grain, soft vignette for the entire clip.
+
+Motion language: paper pieces paste, stamp, unfurl, and settle with slight overshoot, like stop-motion paper puppetry. Calm, trustworthy Vox editorial pacing, warming into quiet celebration.
+
+Do not introduce realistic 3D, glossy interfaces, neon colors, dramatic effects, or jump cuts.

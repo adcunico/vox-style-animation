@@ -1,0 +1,21 @@
+Create a 4.00 second seamless VOX-style editorial collage video: one continuous camera PAN TO THE RIGHT across a paper-collage wall.
+
+You are given two images. The FIRST image is the exact opening frame. The SECOND image is the exact final frame. They are two sections of the same continuous paper wall, and the camera travels between them in one smooth rightward pan. No cuts, no fades.
+
+Opening frame (first image): a warm-paper collage page with a torn magenta title block upper-left, a painted portrait cutout of a young woman lower-left, a grid of small painted self-portrait frames with a larger crowned self-portrait at its center, a cream label, a small sacred-heart cutout, a thin gold crack line, and an orange marigold lower-right.
+
+Final frame (second image): a quiet, almost empty stretch of the same wall: open warm paper, the gold crack line running across the frame, only a thin sliver of the small portrait frames still visible at the far left edge, a few faint blank scraps near the right edge.
+
+CRITICAL RULE - the woman is always static artwork: every depiction of the woman is a printed or painted paper cutout. Her faces never move, blink, or change. Cutouts only move as rigid paper pieces sliding with the wall as the camera pans.
+
+This scene is silent - generate no speech, no voiceover, no music, and no sound effects.
+
+Timeline: hold the opening frame completely still for the first 0.5 seconds. Then one slow, smooth, constant-speed camera pan to the right: the title block, portrait, grid, label, and heart slide toward and off the left edge as the wall passes. The gold crack line is continuous and leads the camera across the paper. The pan eases out and settles exactly on the second image composition, holding still for the final 0.3 seconds.
+
+Camera: pure lateral pan at constant height - no zoom, no vertical drift, no rotation. Subtle paper parallax between cutouts and background. Consistent lighting and texture throughout, one physical wall.
+
+Text: the only readable text is what already exists in the first image as it exits. Do not invent any words, numbers, or labels.
+
+Preservation: same warm paper background (#F6F0E6), crumpled texture, halftone dots, film grain, soft vignette for the entire clip.
+
+Do not introduce new elements, new camera angles, realistic 3D, glossy interfaces, neon colors, or jump cuts.

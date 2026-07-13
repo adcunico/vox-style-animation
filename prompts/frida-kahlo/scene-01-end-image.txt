@@ -1,0 +1,20 @@
+Using the provided image as the base, transform it into the FINAL frame of the same scene. This is the same paper-collage page a few seconds later. Keep the same warm paper background (#F6F0E6), crumpled texture, halftone dot corners, film grain, and the exact same visual world.
+
+Keep completely unchanged from the provided image:
+- The hand-painted folk-art portrait cutout of the young woman in the lower left: identical face, identical brushwork, identical torn edges, identical position and size.
+- The orange paper-cut marigold in the lower right.
+- The warm paper background and its texture.
+
+Remove from the image:
+- The vintage bus cutout and its cathedral background scrap. The area where it was becomes open warm paper.
+
+Add these new elements, keeping the page calm and minimal:
+- A torn magenta paper title block in the upper left, above the portrait, with the word "FRIDA" in bold off-white editorial sans-serif capitals, slightly imperfect like screen-printed ink on paper. Below it a small cream paper tag reading "1925" in small dark editorial type.
+- One thin hand-drawn gold ink crack line, like mended kintsugi pottery, running diagonally across the open upper-right area of the page, delicate and elegant, not busy.
+- A grayscale halftone magazine-cutout photograph placed center-right: a young 1920s woman lying in a hospital bed in a full plaster body cast, holding a small paintbrush in her hand in natural proportion, painting on a small canvas propped on her lap. On the canvas: one single bold magenta (#D12C6A) brushstroke - the only strong color on the page besides the title block and marigold. Torn paper cutout edges, newsprint halftone texture.
+
+Composition discipline: this is a calm, minimal editorial page, not a scrapbook. Exactly five elements total: portrait, title block with date tag, gold crack line, hospital-bed cutout, marigold. At least one third of the frame stays empty warm paper. Generous negative space between elements. One clear focal point: the hospital-bed cutout with the magenta stroke.
+
+Text control: only render the readable text "FRIDA" and "1925". Do not invent any other readable words, numbers, signs, labels, captions, or document text.
+
+Style: Vox-inspired editorial explainer collage, tactile, analog, warm, human. Not glossy, not photorealistic 3D, not AI-slick, no neon colors.

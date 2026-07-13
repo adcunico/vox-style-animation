@@ -1,0 +1,22 @@
+Using the provided image as the base, transform it into the FINAL frame of the next scene. This is the same paper-collage page a few seconds later. Keep the same warm paper background (#F6F0E6), crumpled texture, halftone dot corners, film grain, and the exact same visual world.
+
+Keep completely unchanged from the provided image:
+- The hand-painted folk-art portrait cutout of the young woman in the lower left: identical face, identical brushwork, identical position and size.
+- The torn magenta title block and small cream date tag in the upper left, exactly as they are, but slightly lower in contrast, receding like older context.
+- The thin gold crack line across the paper.
+- The orange paper-cut marigold in the lower right.
+
+Remove from the image:
+- The hospital-bed cutout with the canvas. That area becomes the space for the new centerpiece.
+
+Add these new elements, keeping the page calm and minimal:
+- A paste-up grid of eight small hand-painted folk-art self-portrait paper frames, arranged in a loose, slightly imperfect grid center-right, like proof prints pinned to a studio wall. Each small portrait shows the same young woman's face in the same naive painted style with subtle variations in pose and background tone: muted sepia, cream, soft terracotta. Torn paper edges, small drop shadows, modest size.
+- In the middle of the grid, one larger central self-portrait in sharp focus: the same woman, now wearing a paper flower crown of magenta and marigold blossoms, direct unflinching gaze, the most detailed and vivid frame on the page.
+- One cream paper label below the grid with the text "55 SELF-PORTRAITS" in dark editorial type, with a rough hand-drawn marigold-yellow oval circling the number "55".
+- One small pierced sacred-heart milagro cutout in magenta and marigold, in the Mexican folk-art style, placed near the lower edge of the grid, modest size.
+
+Composition discipline: this is a calm, minimal editorial page, not a scrapbook. The portrait grid is one visual unit. Total elements on the page: the grid with its crowned center, the "55 SELF-PORTRAITS" label, the sacred heart, plus the carried-over portrait, title block, gold crack, and marigold. At least one third of the frame stays empty warm paper. Generous negative space. One clear focal point: the crowned central self-portrait.
+
+Text control: only render the readable text "55 SELF-PORTRAITS" plus the existing title block text already in the provided image. Do not invent any other readable words, numbers, signs, labels, or captions.
+
+Style: Vox-inspired editorial explainer collage, tactile, analog, warm, human, folk-art painted portraits only - no photographic faces. Not glossy, not photorealistic 3D, not AI-slick, no neon colors.

@@ -1,0 +1,32 @@
+Create a 10.00 second seamless VOX-style editorial collage video. This is the closing scene of the film, built around one continuous camera PAN TO THE RIGHT across a paper-collage wall.
+
+You are given three images:
+- The FIRST image is the exact opening frame: the collage page from the previous scene, with a torn magenta title block upper-left, a painted portrait cutout lower-left, a grid of small painted self-portrait frames with a larger crowned self-portrait at its center, a cream label, a small sacred-heart cutout, a thin gold crack line, and an orange marigold lower-right.
+- The SECOND image is the middle of the pan, around the halfway point: the old collage is sliding out of view on the left edge (only a sliver of small portrait frames remains visible), the gold crack line runs across otherwise open, empty warm paper.
+- The THIRD image is the exact final frame: a fresh section of the same wall, with the crowned self-portrait enlarged at center on a large round marigold-yellow paper sun circle, a row of papel picado banners in cobalt and magenta along the top edge, a cream quote card with a struck-through gray label lower-center-left, small paper flowers blooming along the gold crack upper-right, and the orange marigold lower-right.
+
+The whole scene is ONE continuous rightward camera pan across the same continuous paper wall - from the first image, through the second image, arriving at the third image. No cuts, no fades, no teleporting. The gold crack line is continuous across the entire journey and connects all three frames.
+
+CRITICAL RULE - the woman is always static artwork: every depiction of the woman is a printed or painted paper cutout. Her face, eyes, expression, head, and body must NEVER move, blink, breathe, turn, or change. Cutouts of her may only move as complete rigid paper pieces - sliding with the wall as the camera pans, pasting down, fading. She is ink on paper, never a living person. Never redraw, restyle, or morph any of her faces.
+
+This scene is silent - generate no speech, no voiceover, no music, and no sound effects. A narration track will be added locally in post.
+
+Timeline:
+
+Phase 1 (0.0-2.0s): hold the opening frame completely still for the first 0.5 seconds. Then the camera begins a slow, smooth pan to the right. The title block, portrait, grid, label, and heart slide toward and off the left edge of the frame as the wall passes by.
+
+Phase 2 (2.0-5.0s): the pan continues at a steady, calm speed through the quiet middle stretch - matching the second image around the 3.5 to 4.5 second mark: open warm paper, the gold crack line leading the way, the last sliver of the old collage exiting left. This is the breath of the film. Nothing stamps in during this stretch.
+
+Phase 3 (5.0-7.5s): the pan eases to a stop on the fresh section of wall. As it settles: the large marigold sun circle with the crowned self-portrait pastes down at center as one rigid piece; the papel picado banner row unfurls along the top edge flag by flag; the cream quote card slides up into place lower-center-left; the small gray label stamps above it and one rough black ink stroke crosses it out; the marigold underline draws itself beneath the middle words of the quote.
+
+Phase 4 (7.5-10.0s): small paper flowers bloom one by one along the gold crack line, each popping open like folded paper with a slight overshoot. Everything settles into the exact third-image composition and holds completely still for the final full second - the closing shot of the film.
+
+Composition discipline: calm, celebratory, editorial. During the pan the frame is intentionally sparse. In the finale, the crowned portrait on the sun circle is the single focal point and the quote card is the second read. Do not add any element that is not visible in one of the three provided images.
+
+Text: the only readable text in the video is the text already rendered in the provided images. Do not invent any other words, numbers, labels, or captions.
+
+Preservation rules: keep the same warm paper background (#F6F0E6), crumpled texture, halftone dots, film grain, and soft vignette for the entire clip. The pan must feel like one physical wall passing the camera, with consistent lighting and texture throughout.
+
+Motion language: the camera glides at constant height with no vertical drift, no zoom, no rotation - a pure lateral pan with subtle paper parallax. Paper pieces slide, stamp, unfurl, and settle with slight overshoot, like stop-motion paper puppetry. Calm, trustworthy, information-forward Vox editorial pacing, warming into quiet celebration.
+
+Do not introduce a new camera angle, realistic 3D, glossy interfaces, neon colors, dramatic explosions, cinematic lens flares, or jump cuts.

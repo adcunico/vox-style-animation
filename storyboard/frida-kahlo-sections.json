@@ -1,0 +1,45 @@
+{
+  "source_audio": "assets/audio/voiceover.mp3",
+  "audio_duration": 30,
+  "word_level_transcript": "assets/audio/transcript.json",
+  "rules": {
+    "min_duration_exclusive": 5,
+    "max_duration_inclusive": 10,
+    "sentence_safe": true
+  },
+  "sections": [
+    {
+      "section_id": "01",
+      "start": 0,
+      "end": 10,
+      "duration": 10,
+      "sentence_range": [
+        1,
+        4
+      ],
+      "text": "A bus crash shattered her spine at 18. A steel handrail impaled her body. Doctors said she might never walk again. So Frida Kahlo picked up a paintbrush - in bed."
+    },
+    {
+      "section_id": "02",
+      "start": 10,
+      "end": 20,
+      "duration": 10,
+      "sentence_range": [
+        5,
+        7
+      ],
+      "text": "While the art world chased abstraction, Frida painted herself - 55 times. Not vanity. Surgery, miscarriage, heartbreak - she put her pain on canvas when no one else would dare."
+    },
+    {
+      "section_id": "03",
+      "start": 20,
+      "end": 30,
+      "duration": 10,
+      "sentence_range": [
+        8,
+        9
+      ],
+      "text": "Critics called her a surrealist. She shot back: I paint my own reality. Today, Frida isn't just Mexico's most famous artist - she's proof that your wounds can become your voice."
+    }
+  ]
+}

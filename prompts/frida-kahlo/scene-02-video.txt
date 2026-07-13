@@ -1,0 +1,31 @@
+Create a 10.00 second seamless VOX-style editorial collage video.
+
+You are given two images. The FIRST image is the exact opening frame of the video. The SECOND image is the exact final frame of the video. Both show the same warm-paper collage world. Your job is to animate the transformation from the first image to the second image as one continuous, calm, editorial motion-graphics scene, with no cuts.
+
+Opening frame (first image): a warm-paper collage page with a torn magenta title block and cream date tag upper-left, a hand-painted folk-art portrait cutout of a young woman lower-left, a grayscale cutout of the same young woman lying in a hospital bed painting one magenta stroke on a small canvas center-right, a thin gold crack line across the paper, and an orange paper-cut marigold lower-right.
+
+Final frame (second image): the same page. The hospital-bed cutout is gone. In its place, a loose paste-up grid of eight small hand-painted self-portrait paper frames center-right, with one larger central self-portrait in sharp focus wearing a magenta-and-marigold paper flower crown. Below the grid, a cream label with a hand-drawn marigold oval circling a number. A small pierced sacred-heart milagro cutout in magenta and marigold near the lower edge of the grid. The title block, painted portrait, gold crack line, and marigold are unchanged from the opening frame, with the title block slightly lower in contrast.
+
+CRITICAL RULE - the woman is always static artwork: every depiction of the woman on this page is a printed, painted, or photographic paper cutout. Her face, eyes, expression, head, hands, and body must NEVER move, blink, breathe, turn, or change in any way. Cutouts of her may only move as complete rigid paper pieces - sliding, stamping down, tilting slightly, drifting, fading, or coming into focus. She is ink on paper, never a living person. Never redraw, restyle, or morph any of her faces.
+
+This scene is silent - generate no speech, no voiceover, no music, and no sound effects. A narration track will be added locally in post.
+
+Animate between the two frames in exactly four beats, evenly paced across the 10 seconds:
+
+Beat 1 (0.0-2.5s): hold the opening frame completely still for the first 0.5 seconds. Then the hospital-bed cutout lowers in contrast and slides out of the frame to the right as one rigid paper piece, leaving open warm paper. The camera drifts back slightly wider.
+
+Beat 2 (2.5-6.0s): the small painted self-portrait frames paste onto the page one after another, each stamping down as a rigid paper card with a slight overshoot and settle, building the loose grid center-right exactly as arranged in the final frame. Each portrait is a static painting - the faces never move.
+
+Beat 3 (6.0-7.5s): the cream label slides in below the grid and settles, and the rough marigold-yellow oval draws itself around the number on the label. Nothing else moves.
+
+Beat 4 (7.5-10.0s): the small sacred-heart milagro cutout stamps down near the lower edge of the grid. Then the larger central crowned self-portrait settles into the middle of the grid and racks into sharp focus while the surrounding small frames soften slightly. Everything settles into the final frame composition and holds still for the last 0.5 seconds.
+
+Composition discipline: this is a calm, minimal editorial page, not a scrapbook. The portrait grid is one visual unit that assembles piece by piece. At least one third of the frame stays empty warm paper at all times. Do not add any element that is not visible in one of the two provided frames.
+
+Text: the only readable text in the video is the text already rendered in the two provided frames. Do not invent any other words, numbers, labels, or captions.
+
+Preservation rules: keep the same warm paper background (#F6F0E6), crumpled texture, halftone dots, film grain, and soft vignette for the entire clip. The painted portrait lower-left, gold crack line, and marigold stay in place throughout.
+
+Motion language: paper pieces slide, stamp, and settle with slight overshoot, like stop-motion paper puppetry. Use rack focus through blur and opacity for emphasis. Calm, trustworthy, information-forward Vox editorial pacing.
+
+Do not introduce a new camera angle, realistic 3D, glossy interfaces, neon colors, dramatic explosions, cinematic lens flares, or jump cuts.

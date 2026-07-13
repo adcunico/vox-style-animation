@@ -1,0 +1,29 @@
+﻿Create a 10.00 second seamless VOX-style editorial collage video.
+
+You are given two images. The FIRST image is the exact opening frame of the video. The SECOND image is the exact final frame of the video. Both show the same warm-paper collage world. Your job is to animate the transformation from the first image to the second image as one continuous, calm, editorial motion-graphics scene, with no cuts.
+
+Opening frame (first image): a grayscale halftone cutout of a 1920s vintage bus with a cathedral skyline center-right, a hand-painted folk-art portrait cutout of a young woman lower-left, an orange paper-cut marigold lower-right, blank paper scraps, warm paper background, no text.
+
+Final frame (second image): the same page, now with a torn magenta title block with the title text and a small cream date tag, exactly as shown upper-left, one thin gold crack line across the open paper, and a grayscale cutout of the same young woman lying in a hospital bed in a plaster body cast painting one magenta stroke on a small lap canvas center-right. The bus is gone. The portrait and marigold are unchanged.
+
+This scene is silent - generate no speech, no voiceover, no music, and no sound effects. A narration track will be added locally in post.
+
+Animate between the two frames in exactly four beats, evenly paced across the 10 seconds:
+
+Beat 1 (0.0-2.0s): hold the opening frame completely still for the first 0.5 seconds. Then the torn magenta title block stamps down into the upper left with a slight paper overshoot, followed by the small cream date tag settling below it. The title text appears exactly as it looks in the final frame - same font, same position.
+
+Beat 2 (2.0-4.5s): a slow camera push-in toward the bus with a faint stop-motion paper jitter, then one single sharp page-shake of 2-3 frames: the bus cutout tears into two pieces and the thin gold crack line draws itself across the page like mended kintsugi pottery, ending exactly where it sits in the final frame.
+
+Beat 3 (4.5-7.0s): the two torn bus pieces lower in contrast, drift apart toward the frame edges and slide out of the page, leaving open warm paper and the gold crack line. This beat removes elements instead of adding them.
+
+Beat 4 (7.0-10.0s): the camera gently pulls back and the hospital-bed cutout slides in from the right and settles center-right, exactly as positioned in the final frame. The paintbrush in her hand draws the single magenta stroke onto the lap canvas - the only strong color moment. Everything settles into the final frame composition and holds still for the last 0.5 seconds.
+
+Composition discipline: this is a calm, minimal editorial page, not a scrapbook. Never more than three major cutout elements at full contrast at once. At least one third of the frame stays empty warm paper at all times. Do not add any element that is not visible in one of the two provided frames.
+
+Text: the only readable text in the video is the title text exactly as rendered in the final frame. Do not invent any other words, numbers, labels, or captions.
+
+Preservation rules: never redraw, restyle, or morph the painted portrait cutout - it stays identical in both frames and throughout. Keep the same warm paper background (#F6F0E6), crumpled texture, halftone dots, film grain, and soft vignette for the entire clip.
+
+Motion language: paper pieces slide, stamp, and settle with slight overshoot, like stop-motion paper puppetry. Use rack focus through blur and opacity for emphasis. Calm, trustworthy, information-forward Vox editorial pacing.
+
+Do not introduce a new camera angle, realistic 3D, glossy interfaces, neon colors, dramatic explosions, cinematic lens flares, or jump cuts.

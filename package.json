@@ -1,0 +1,10 @@
+{
+  "name": "frida-kahlo-vox-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "kie:check": "node scripts/kie-sequential-video.mjs check",
+    "kie:prompts": "node scripts/kie-sequential-video.mjs write-prompts",
+    "kie:run": "node scripts/kie-sequential-video.mjs run"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "frida-kahlo",
+  "sections_path": "storyboard/frida-kahlo-sections.json",
+  "output_dir": "outputs/frida-kahlo",
+  "prompt_dir": "prompts/frida-kahlo",
+  "models": {
+    "first_image": "gpt-image-2-text-to-image",
+    "scene_video": "gemini-omni-video"
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "aspect_ratio": "16:9"
+  },
+  "kie": {
+    "poll_interval_ms": 5000,
+    "poll_timeout_ms": 900000,
+    "upload_path": "images/vox-video"
+  },
+  "omni": {
+    "duration_strategy": "ceil_then_trim",
+    "audio_ids": [
+      "kore"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+Using the provided image as the base, create the MIDDLE frame of a camera pan. The camera is travelling to the RIGHT across the same continuous paper-collage wall. We are now between the old collage (which is sliding out of view on the left) and a fresh empty section of the wall (entering from the right).
+
+Keep the exact same visual world as the provided image: warm paper background (#F6F0E6), crumpled texture, faint halftone dots, film grain, soft vignette.
+
+Compose this frame as follows:
+- On the far LEFT edge: the trailing edge of the old collage, partially cropped by the frame edge - a sliver of two or three small painted self-portrait paper frames and a torn magenta paper fragment, sliding out of view. They occupy no more than the leftmost sixth of the frame.
+- The thin hand-drawn gold ink crack line continues from the left edge across the whole frame horizontally, like mended kintsugi pottery travelling along the paper wall - it is the guide line of the journey.
+- The rest of the frame: open, calm, empty warm paper with its crumpled texture and faint halftone. A couple of very subtle blank torn paper scraps at low contrast near the right edge, hinting that something new is ahead.
+- No people, no faces, no readable text anywhere in this frame.
+
+Composition discipline: this is the quietest frame of the whole film - a breath between chapters. Mostly empty paper, the gold crack line as the only strong graphic, the old collage exiting left. Generous emptiness is the point.
+
+Text control: render no readable text anywhere. No words, numbers, labels, or captions.
+
+Style: Vox-inspired editorial explainer collage, tactile, analog, warm, human. Not glossy, not photorealistic 3D, not AI-slick, no neon colors.

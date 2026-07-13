@@ -1,0 +1,16 @@
+Create the opening frame for a VOX-style editorial explainer video about Frida Kahlo.
+
+Format: 16:9 landscape, composed for 1920x1080 video.
+
+Narration this frame sets up:
+"A bus crash shattered her spine at 18. A steel handrail impaled her body. Doctors said she might never walk again. So Frida Kahlo picked up a paintbrush - in bed."
+
+Style: editorial explainer-video frame in the style of a modern journalism motion-graphics studio. Tactile paper collage with torn edges and layered depth. Warm paper background (#F6F0E6), faint crumpled-paper texture, low-opacity halftone dot pattern, slight grain throughout. Main subjects are grayscale halftone magazine cutouts, like archival newsprint photography cut out with scissors. Restrained Mexican folk-art accent palette: marigold yellow (#F4A300), cobalt blue (#1557A5), magenta (#D12C6A), jungle green (#2D7A50), terracotta (#C65A32), turquoise (#2DB7A3). Use at most two accent colors in this frame, dominated by magenta and marigold.
+
+Visible at frame 0: a grayscale halftone magazine-cutout of a 1920s Mexico City vintage bus on a cobbled street, clearly separated from the paper ground, placed center-right with open space on the lower third. In the left third of the frame, a hand-painted folk-art style portrait cutout of a young 1920s Mexican woman artist, in the naive expressive manner of 1930s Mexican retablo and folk painting: visible brushwork, muted sepia and grayscale tones with one soft terracotta blush accent, dark hair pulled back, strong bold brows, direct serious gaze, simple 1920s blouse, torn-paper cutout edges, about one quarter of the frame height, positioned center-left. The portrait must read as a painting, not a photograph. Keep the space directly above her portrait open and calm - a torn paper title block will animate into that space during the video. One paper-cut marigold flower resting near the lower right corner, and one or two small blank torn paper scraps. Keep the page calm and underbuilt so the first video scene has room to animate.
+
+Reserved for animation later; do not show these in the opening image: any title block or text labels, gold crack lines, hospital bed, plaster body cast, overhead mirror, paintbrush, canvas, doctors' silhouettes, hand-drawn arrows, rough circles, pencil underlines, self-portrait frames, papel picado banners, animal cutouts, Mexico map, quote cards, and final headline cards.
+
+Text control: render no readable text anywhere in this image. No words, numbers, signs, labels, captions, document text, stamps, or tiny typography. All paper cards and scraps must be blank or contain only unreadable abstract marks.
+
+Composition: clean, generous negative space, one clear focal point, analog tactile, sophisticated, warm, editorial. Leave enough open space for later paper elements and labels to slide in from the left, top, and lower right. Not glossy, not photorealistic 3D, not AI-slick, no neon colors.

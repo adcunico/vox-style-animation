@@ -1,0 +1,22 @@
+Using the provided image as the base, edit it minimally. This is the FINAL frame of a film - the camera has panned right onto a fresh section of the paper-collage wall, so the old chapter's elements must not be here. Keep everything else exactly as it is: same warm paper background, same textures, same composition, same colors, same light.
+
+Remove these elements completely, filling their areas with clean warm paper texture that matches the background:
+- The torn magenta "FRIDA" title block and the cream "1925" date tag in the upper left.
+- The large softened portrait cutout of the woman in the lower left corner.
+- The magenta torn paper strip along the bottom left edge.
+- The faded echo self-portrait frames scattered around the central portrait (all of them).
+
+Keep completely unchanged:
+- The large central crowned self-portrait on the round marigold-yellow paper sun circle: identical face, identical position, identical size.
+- The papel picado banner row along the top edge.
+- The cream quote card with "I PAINT MY OWN REALITY" and the marigold underline under "MY OWN".
+- The small gray "SURREALIST" label with its black strike-through.
+- The gold crack line with the paper flowers blooming along it in the upper right.
+- The orange paper-cut marigold in the lower right.
+- All paper textures, halftone dots, and grain.
+
+The result: a cleaner, more open finale page - the crowned portrait on the sun circle as the sole hero, the quote card as the second read, banners above, flowering crack to the right, marigold anchor lower-right, and generous empty warm paper on the left third of the frame.
+
+Text control: only the readable text already present remains: "I PAINT MY OWN REALITY" and "SURREALIST". Do not add any new words, numbers, labels, or captions.
+
+Style: identical to the provided image. Vox-inspired editorial explainer collage, tactile, analog, warm. Not glossy, not AI-slick.

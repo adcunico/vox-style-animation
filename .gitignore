@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+
+.DS_Store
+node_modules/
+
+# Generated/private media and Kie outputs.
+outputs/
+assets/audio/*
+!assets/audio/.gitkeep
+
+# Prompt text files are part of the shared workflow; media outputs are not.
+prompts/**/*.jpg
+prompts/**/*.png
+
+# Defensive ignores for old video app structures and build outputs.
+.hyperframes/
+hyperframes/
+remotion/
+.remotion/
+dist/
+build/
+.render/
+
+# Media should be generated locally, not committed.
+*.mp4
+*.mov
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.aiff
+*.jpg
+*.jpeg
+*.png
+*.gif
